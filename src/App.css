@@ -36,3 +36,133 @@
     transform: rotate(360deg);
   }
 }
+.task-executor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+.username-input {
+  width: 100%;
+  height: 35px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 30px;
+}
+.role-select-container {
+  width: 100%;
+  height: 35px;
+  outline: none;
+}
+.login-button:hover {
+  background-color: green;
+}
+.login-button {
+  height: 35px;
+  width: 140px;
+  border-width: 0px;
+  background-color: goldenrod;
+  color: #ffffff;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.master-input-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.value-input {
+  height: 20px;
+  width: 100px;
+  padding-right: 10px;
+}
+.master-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.execute-button:hover {
+  background-color: green;
+}
+.execute-button {
+  width: 80px;
+  border-width: 0px;
+  height: 30px;
+  background-color: red;
+  color: #ffffff;
+  margin-top: 30px;
+  align-self: center;
+}
+.student-activity-logout-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logout-button :hover {
+  background-color: red;
+}
+.logout-button {
+  height: 30px;
+  width: 100px;
+  border-width: 0px;
+  background-color: orange;
+  color: #ffffff;
+  margin-right: 50px;
+}
+.logout-master-button {
+  margin-top: 40px;
+  align-self: flex-end;
+}
+.sign-up-container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.sign-up-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign-up-button {
+  height: 20px;
+  width: 60px;
+  border-width: 0px;
+  color: #ffffff;
+  background-color: blue;
+  font-size: 10px;
+  margin-left: 20px;
+}
+.sign-up-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.sign-up-name-input {
+  height: 30px;
+  width: 200px;
+  margin-top: 10px;
+}
+.sign-up-page-submit-button {
+  background-color: aquamarine;
+  color: #282c34;
+  font-weight: bolder;
+  border-width: 0px;
+  height: 35px;
+  width: 130px;
+  margin-top: 20px;
+  align-self: center;
+  cursor: pointer;
+  outline: none;
+}
+.back-button {
+  height: 25px;
+  width: 55px;
+  align-self: flex-end;
+  margin-right: 50px;
+}
